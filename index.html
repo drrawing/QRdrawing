@@ -10,6 +10,13 @@
             margin-bottom: 20px;
         }
 
+        .resized-image {
+            max-width: 100%;
+            height: auto;
+            width: 100%;
+            object-fit: cover;
+        }
+
         .visit-button {
             padding: 10px 20px;
             font-size: 16px;
@@ -19,22 +26,22 @@
             border: none;
             border-radius: 5px;
             cursor: pointer;
-            display: block; /* Ensures buttons are displayed as blocks (one below the other) */
-            margin-top: 10px; /* Adds space between image and button */
+            display: block;
+            margin-top: 10px;
         }
     </style>
 </head>
 <body>
 
 <div class="image-container">
-    <img src="Gema.jpg" alt="Image 1">
+    <img src="Gema.jpg" alt="Image 1" class="resized-image">
     <a href="owner_link_1" class="visit-button">غيمة</a>
 </div>
 
 <div class="image-container">
-    <img src="AhmedCR7.jpg" alt="Image 2">
+    <img src="AhmedCR7.jpg" alt="Image 2" class="resized-image">
     <a href="owner_link_2" class="visit-button">احمد حلة</a>
 </div>
 
 </body>
-</html>
+</html> 
